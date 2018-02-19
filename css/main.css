@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -1969,7 +1969,7 @@ nav a:hover {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 50px 0 90px 0;
 }
 
 .primary-btn {
@@ -2145,9 +2145,9 @@ nav a:hover {
 
 .studio-area .studio-content {
   position: relative;
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px;
   background: #fff;
-  padding: 35px 100px 40px 0;
+  padding: 35px 100px 40px 100px;
 }
 
 @media (max-width: 575px) {
@@ -2156,7 +2156,7 @@ nav a:hover {
   }
 }
 
-.studio-area .studio-content:after {
+/* .studio-area .studio-content:after {
   content: "";
   position: absolute;
   right: 100%;
@@ -2165,7 +2165,7 @@ nav a:hover {
   width: 70px;
   height: 100%;
   border-radius: 5px 0 0 5px;
-}
+} */
 
 @media (max-width: 991px) {
   .studio-area .studio-content:after {
@@ -2320,7 +2320,7 @@ nav a:hover {
 
 @media (max-width: 1199px) {
   .active-bottle-carousel .carousel-content {
-    padding-right: 30px;
+    padding-right: 10px;
   }
 }
 
@@ -2465,7 +2465,7 @@ nav a:hover {
 
 .footer-widget-area {
   position: relative;
-  background: url(../img/f-bg.jpg) no-repeat center center/cover;
+  background: url(../img/ff-bg.jpeg) no-repeat center center/cover;
 }
 
 .footer-widget-area .overlay-bg {
