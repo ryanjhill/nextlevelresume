@@ -24,3 +24,16 @@
   width: 100%;
   z-index: 1;
 }
+
+.normal-page p,li {
+  margin-top: 15px !important;
+}
+
+.normal-page a {
+  color: #e0003b;
+}
+
+.normal-page a:hover {
+  color: #e3305f;
+  text-decoration:underline;
+}
