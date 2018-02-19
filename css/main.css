@@ -385,6 +385,13 @@ td, th {
 
 .mb-30 {
   margin-bottom: 30px;
+  margin-right: 0rem;
+}
+
+@media screen and (min-width: 1140px) {
+  .mb-30 {
+    margin-right: 5rem !important;
+  }
 }
 
 .mb-40 {
@@ -710,6 +717,7 @@ td, th {
   right: 0;
   top: 0;
   bottom: 0;
+  z-index: 0;
 }
 
 .container.fullwidth {
@@ -729,7 +737,7 @@ td, th {
   background: #f9fafc;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .no-flex-xs {
     display: block !important;
   }
@@ -2211,26 +2219,26 @@ nav a:hover {
   text-align: center;
 }
 
-.achivement-area .single-achivement .achivement-link {
+.achivement-area .single-achivement {
   display: block;
-  background: #f9fcff;
+  /* background: #FFEBEE; */
   text-align: center;
   border-radius: 3px;
-  -webkit-transition: all 0.3s ease 0s;
+  /* -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; */
 }
 
-.achivement-area .single-achivement .achivement-link i {
+.achivement-area .single-achivement i {
   display: inline-block;
-  padding: 40px 0;
+  padding: 30px 0;
   font-size: 42px;
   color: #777777;
-  -webkit-transition: all 0.3s ease 0s;
+  /* -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; */
 }
 
 .achivement-area .single-achivement h6 {
@@ -2243,13 +2251,13 @@ nav a:hover {
   font-weight: 300;
 }
 
-.achivement-area .single-achivement:hover .achivement-link {
+/* .achivement-area .single-achivement:hover .achivement-link {
   background: #e0003b;
-}
+} */
 
-.achivement-area .single-achivement:hover .achivement-link i {
+/* .achivement-area .single-achivement:hover .achivement-link i {
   color: #fff;
-}
+} */
 
 .video-area {
   position: relative;
@@ -2261,10 +2269,24 @@ nav a:hover {
 }
 
 .video-area .video-content {
-  padding: 200px 0;
-  text-align: center;
+  position: relative;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px 30px 40px 30px;
+  /* text-align: center; */
   position: relative;
   z-index: 2;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 310px;
+  max-width: 280px;
+}
+
+@media (max-width:992px) {
+  .video-area .video-content {
+    max-width: 380px !important;
+  }
 }
 
 .video-area .video-content a {
@@ -2302,7 +2324,8 @@ nav a:hover {
 }
 
 .carousel-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  /* background: rgba(224, 0, 59, 0.8); */
+  background: #e3305f
 }
 
 .active-bottle-carousel {
