@@ -30,7 +30,8 @@
 }
 
 .normal-page a {
-  color: #e0003b;
+  color: #616161;
+  font-weight: bold;
 }
 
 .normal-page a:hover {
