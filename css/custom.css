@@ -32,11 +32,23 @@
 .normal-page a {
   color: #616161;
   font-weight: bold;
+
+  border-bottom: 5px solid #E57373;
+  text-decoration: none;
+  /* color: #000000; */
 }
 
 .normal-page a:hover {
-  color: #e3305f;
-  text-decoration:underline;
+  /* color: #e3305f;
+  text-decoration:underline; */
+
+  -webkit-transition: background-color .2s; /* Safari */
+  transition: background-color .2s;
+  background-color: #E57373;
+
+  -webkit-transition: background-color .2s; /* Safari */
+  transition: color .2s;
+  color: white;
 }
 
 .primary-btn {
